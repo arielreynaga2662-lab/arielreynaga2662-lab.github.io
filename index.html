@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ariel Reynaga | Desarrollador Web</title>
+  <meta name="description" content="Portfolio de Ariel Reynaga, estudiante de Análisis y Desarrollo de Software en Salta. Proyectos web con PHP, MySQL, Python, FastAPI, JavaScript y React.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="logo" href="#inicio">Ariel Reynaga</a>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <img class="foto" src="img/ariel-reynaga.jpg" alt="Foto de Ariel Reynaga" width="160" height="160">
+      <div>
+        <p class="saludo">Hola, soy</p>
+        <h1>Ariel Reynaga</h1>
+        <p class="rol">Desarrollador web en formación · Salta, Argentina</p>
+        <p>Estudio Análisis, Diseño y Desarrollo de Software en el IES N° 6.001 y me gusta construir sitios y aplicaciones web que se usen de verdad.</p>
+        <div class="botones">
+          <a class="boton principal" href="Reynaga_Ariel_CV.pdf" download>Descargar CV (PDF)</a>
+          <a class="boton" href="https://www.linkedin.com/in/ariel-reynaga" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="boton" href="https://github.com/arielreynaga2662-lab" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Estoy terminando el segundo año de la tecnicatura. En la carrera hice sitios y aplicaciones web con PHP, MySQL, Python y React, casi siempre en equipo y usando Git y GitHub.</p>
+      <p>Además trabajo como instructor y personal trainer en un gimnasio. Ese trabajo me enseñó a tener paciencia, a explicar las cosas de forma simple y a ser constante. Viví en Brasil, así que hablo portugués.</p>
+      <p>Estoy buscando mi primera oportunidad como desarrollador, con ganas de aprender de gente con más experiencia y de aportar lo mío.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="grilla">
+        <article class="proyecto">
+          <img src="img/promadera.jpg" alt="Documentación de la API de ProMadera en Swagger, con los endpoints de productos" width="960" height="600">
+          <div class="contenido">
+            <h3>ProMadera</h3>
+            <p>Plataforma web que conecta carpinteros con corralones de madera. El carpintero diseña un mueble, ve los materiales y el presupuesto, y compra los insumos a varios corralones en una sola orden.</p>
+            <p><strong>Tecnologías:</strong> Python, FastAPI, PostgreSQL (Supabase), React, Mercado Pago.</p>
+            <p><strong>Mi rol:</strong> backend en un equipo de 4 personas. Hice los usuarios y el login, los pedidos por corralón, los pagos con Mercado Pago, los correos y el comprobante en PDF.</p>
+            <div class="enlaces">
+              <a href="https://github.com/JDSA3/Proyecto.Promadera" target="_blank" rel="noopener">Repositorio</a>
+              <a href="https://promadera-api.onrender.com/docs" target="_blank" rel="noopener">Demo de la API</a>
+            </div>
+            <p class="nota">La API está en un servidor gratuito y puede tardar un minuto en responder la primera vez.</p>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <img src="img/extreme-gym.jpg" alt="Página de inicio del sitio de Extreme Gym, con el título Transformá tu cuerpo, mejorá tu vida" width="960" height="600">
+          <div class="contenido">
+            <h3>Extreme Gym</h3>
+            <p>Sitio web de un gimnasio con disciplinas, planes, horarios y entrenadores. Los socios se registran, inician sesión y ven sus planes, y el administrador gestiona el contenido desde un panel.</p>
+            <p><strong>Tecnologías:</strong> PHP 8, MySQL, CodeIgniter 4, Bootstrap 5, JavaScript, Figma.</p>
+            <p><strong>Mi rol:</strong> proyecto individual. Hice el diseño en Figma, la programación, la base de datos de 6 tablas y la publicación del sitio.</p>
+            <div class="enlaces">
+              <a href="https://github.com/arielreynaga2662-lab/tp-sitio-gimnasio" target="_blank" rel="noopener">Repositorio</a>
+              <a href="http://extremegym.infinityfreeapp.com" target="_blank" rel="noopener">Ver demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <img src="img/javascript-dragon-ball.jpg" alt="Galería de personajes de Dragon Ball cargados desde una API, con un buscador arriba" width="960" height="600">
+          <div class="contenido">
+            <h3>Prácticas de JavaScript</h3>
+            <p>Tres páginas hechas con JavaScript puro: una galería de personajes de Dragon Ball que se carga desde una API pública y tiene buscador, un filtro de productos y una lista de tareas.</p>
+            <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript (fetch y manejo del DOM).</p>
+            <p><strong>Mi rol:</strong> proyecto individual. Programé las tres páginas y las publiqué en GitHub Pages.</p>
+            <div class="enlaces">
+              <a href="https://github.com/arielreynaga2662-lab/Tp4Practica2" target="_blank" rel="noopener">Repositorio</a>
+              <a href="https://arielreynaga2662-lab.github.io/Tp4Practica2/" target="_blank" rel="noopener">Ver demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul class="etiquetas">
+        <li>PHP</li><li>Python</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li>
+        <li>CodeIgniter 4</li><li>FastAPI</li><li>React</li><li>Bootstrap</li>
+        <li>MySQL</li><li>PostgreSQL</li><li>Git y GitHub</li><li>Figma</li>
+        <li>Español (nativo)</li><li>Portugués (intermedio alto)</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si tenés una propuesta o querés charlar sobre algún proyecto, escribime.</p>
+      <ul class="contacto">
+        <li><strong>Email:</strong> <a href="mailto:arielreynaga2662@gmail.com">arielreynaga2662@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ariel-reynaga" target="_blank" rel="noopener">linkedin.com/in/ariel-reynaga</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/arielreynaga2662-lab" target="_blank" rel="noopener">github.com/arielreynaga2662-lab</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Ariel Reynaga · <a href="Reynaga_Ariel_CV.pdf" download>Descargar CV</a></p>
+  </footer>
+</body>
+</html>
